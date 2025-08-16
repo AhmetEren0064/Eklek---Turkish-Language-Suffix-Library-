@@ -15,25 +15,25 @@ Features;
 
 This part is in Turkish to explain Turks the project's functions; 
 
-# ÖRNEK:
+## ÖRNEK:
 Not oluşturma programı yazdınız. Ve notun varsayılan isminin kullanıcının adıyla olmasını istediniz.
 - Ahmet'in Projesi.
 - Mahmut'un Projesi.
 - Tolga'nın Projesi.
-# Bu kütüphaneyle artık "Tolga adlı kişinin projesi" gibi isimler takmanıza gerek kalmayacak.
+### Bu kütüphaneyle artık "Tolga adlı kişinin projesi" gibi isimler takmanıza gerek kalmayacak.
 
 name = "tolga"
 
-# Normalde;
+#### Normalde;
 - print(name + " kişisinin projesi")
 
-# Bununla;
+#### Bununla;
 - print(specomplement(name) + " projesi") #* Çıktı --> Tolga'nın projesi
 
 
 # Fonksiyonlar ve Beklenen Sonuçlar;
 
-# Şahıs Ekleri
+### Şahıs Ekleri
 - me() --> kitabım
 - speme() --> Kitap'ım
 - you() --> kitapsın
@@ -43,7 +43,7 @@ name = "tolga"
 - we() --> kitabız
 - spewe() --> Kitap'ız
 
-# İyelik Ekleri
+### İyelik Ekleri
 - my() --> kitabım
 - spemy() --> Kitap'ım
 - your() --> kitabın
@@ -57,7 +57,7 @@ name = "tolga"
 - their() --> kitapları
 - spetheir() --> Kitap'ları
 
-# Hal Ekleri
+### Hal Ekleri
 - accusative() --> kitabı
 - speaccusative() --> Kitap'ı
 - dative() --> kitaba
@@ -67,7 +67,7 @@ name = "tolga"
 - ablative() --> kitaptan
 - speablative() --> Kitap'tan
 
-# Diğer Ekler
+### Diğer Ekler
 - plural() --> kitaplar
 - question() --> kitap mı
 - complement() --> kitabın
@@ -75,7 +75,7 @@ name = "tolga"
 - relative() --> Kitaptaki (buradaki kelime kitap değil "kitapta" ki bitişik yazılsın diye. Ki'nin ayrı yazıldığı - durumlarda kullanmayınız.)
 - equality() --> kitapça
 
-# Not:  
+## Not:  
 Ek eğer özel bir isme(Ahmet, Mehmet, İstanbul, Bursa gibi) gelecekse başında "spe..." bulunan fonksiyonları tercih ediniz.;
 locative() --> kitapta
 spelocative() --> Kitap'ta, bunun gibi.
