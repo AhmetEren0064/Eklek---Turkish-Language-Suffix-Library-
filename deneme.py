@@ -1,28 +1,25 @@
-# Eklek---Turkish-Language-Suffix-Library-
- Suffix support for Turkish language, very functional and useful.
+from ek import *
 
-This part is in Turkish to explain Turks the project's functions; 
-
-# ÖRNEK:
-Not oluşturma programı yazdınız. Ve notun varsayılan isminin kullanıcının adıyla olmasını istediniz.
-- Ahmet'in Projesi.
-- Mahmut'un Projesi.
-- Tolga'nın Projesi.
-# Bu kütüphaneyle artık "Tolga adlı kişinin projesi" gibi isimler takmanıza gerek kalmayacak.
+#! ÖRNEK:
+#todo Not oluşturma programı yazdınız. Ve notun varsayılan isminin kullanıcının adıyla olmasını istediniz.
+#* Ahmet'in Projesi.
+#* Mahmut'un Projesi.
+#* Tolga'nın Projesi.
+#? Bu kütüphaneyle artık "Tolga adlı kişinin projesi" gibi isimler takmanıza gerek kalmayacak.
 
 name = "tolga"
 
-# Normalde;
+#* Normalde;
 print(name + "'ın projesi")
 print(name + " kişisinin projesi")
 
-# Bununla;
+#* Bununla;
 print(specomplement(name) + " projesi") #* Çıktı --> Tolga'nın projesi
 
+"""
+#? Fonksiyonlar ve Beklenen Sonuçlar;
 
-# Fonksiyonlar ve Beklenen Sonuçlar;
-
-# Şahıs Ekleri
+#* Şahıs Ekleri
 me() kitabım
 speme() Kitap'ım
 you() kitapsın
@@ -32,7 +29,7 @@ speyouplural() Kitap'sınız
 we() kitabız
 spewe() Kitap'ız
 
-# İyelik Ekleri
+#* İyelik Ekleri
 my() kitabım
 spemy() Kitap'ım
 your() kitabın
@@ -46,7 +43,7 @@ speyours() Kitap'ınız
 their() kitapları
 spetheir() Kitap'ları
 
-# Hal Ekleri
+#* Hal Ekleri
 accusative() kitabı
 speaccusative() Kitap'ı
 dative() kitaba
@@ -56,7 +53,7 @@ spelocative() Kitap'ta
 ablative() kitaptan
 speablative() Kitap'tan
 
-# Diğer Ekler
+#* Diğer Ekler
 plural() kitaplar
 question() kitap mı
 complement() kitabın
@@ -66,23 +63,4 @@ equality() kitapça
 
 Not: Ek eğer özel bir isme(Ahmet, Mehmet, İstanbul, Bursa gibi) gelecekse başında "spe..." bulunan fonksiyonları tercih ediniz.;
 locative() --> kitapta
-spelocative() --> Kitap'ta, bunun gibi.
-
-
-
-
-
-
-
-
-
-
-
-
-
-## License
-
-This project is licensed under **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)**.  
-You may use it for personal and educational purposes only.  
-Commercial use or modifications of the code are not permitted.  
-Credit must be given to the original author.
+spelocative() --> Kitap'ta, bunun gibi."""
