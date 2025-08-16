@@ -77,8 +77,9 @@ name = "tolga"
 
 ## Not:  
 Ek eğer özel bir isme(Ahmet, Mehmet, İstanbul, Bursa gibi) gelecekse başında "spe..." bulunan fonksiyonları tercih ediniz.;
-locative() --> kitapta
-spelocative() --> Kitap'ta, bunun gibi.
+- locative() --> kitapta
+- spelocative() --> Kitap'ta, 
+bunun gibi.
 
 
 ## License
