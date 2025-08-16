@@ -1,4 +1,4 @@
-# Eklek---Turkish-Language-Suffix-Library-
+# Eklek - Turkish Language Suffix Library
  Suffix support for Turkish language, very functional and useful.
 
 This project provides a functional morpheme model for Turkish, designed to handle complex word formations and grammatical structures.
